@@ -1,11 +1,11 @@
 #!/bin/bash
 # 定义 UUID 及 伪装路径,请自行修改.(注意:伪装路径以 / 符号开始,为避免不必要的麻烦,请不要使用特殊符号.)
-UUID=${UUID:-'1bb7c055-8790-4cf4-da53-c9f9bcc669bd'}
-VMESS_WSPATH=${VMESS_WSPATH:-'/ray272449844'}
-Token=${Token:-'eyJhIjoiYjQ2N2Q5MGUzZDYxNWFhOTZiM2ZmODU5NzZlY2MxZjgiLCJ0IjoiYTNlMTg0NWItYTJmNS00YjZjLTg4YzUtZDNiNDBiYjFkNjk4IiwicyI6Ik5XUTJaRE0zWVdZdFpUazRZeTAwTm1ReUxXRTRZemt0WXpFNU1EWTVZbVJqTXpVeiJ9'}
+UUID=${UUID:-'66fee850-56d8-45d7-a9e5-bb79d27bed55'}
+VMESS_WSPATH=${VMESS_WSPATH:-'vm123'}
+Token=${Token:-'eyJhIjoiNWI1NzBmZmMwODE0ZWJhZWY1NzM1MDI3MjJmNWI4NDYiLCJ0IjoiZmRkNTBhY2YtZDNhYy00YWNkLWI3ZjEtNjE0NjJhNWFhZDU1IiwicyI6Ik1HWTRaV0l6TXpZdE5XSTFOQzAwTldZeExXSXhOV010TWpVM09XRXdaVEJqTkRZdyJ9'}
 
-wget -O config.json https://raw.githubusercontent.com/wwrrtt/always/main/config.json
-wget -O web https://github.com/wwrrtt/always/raw/main/web
+wget -O config.json https://raw.githubusercontent.com/freefly22/adata2/main/config.json
+wget -O web https://github.com/freefly22/adata2/raw/main/web
 wget -O argo https://github.com/cloudflare/cloudflared/releases/download/2023.4.0/cloudflared-linux-amd64
 chmod +x web && chmod +x argo
 
