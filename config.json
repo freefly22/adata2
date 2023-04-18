@@ -12,7 +12,7 @@
       "settings": {
         "clients": [
           {
-            "id": "5050ade2-3802-41c8-bd57-06b0fa46c783",
+            "id": "66fee850-56d8-45d7-a9e5-bb79d27bed55",
             "alterId": 0
           }
         ]
@@ -20,7 +20,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-        "path": "/ray272449844"
+        "path": "vm123"
         }
       }
     }
